@@ -123,7 +123,7 @@
 
       // Buat pesan WhatsApp dengan jam selesai
       const pesan = `Halo HB Barbershop,%0ASaya *${nama}* ingin reservasi pada:%0A📅 Tanggal: ${tanggal}%0A⏰ Jam: ${waktu}%0A%0A⏳ Waktu reservasi berlaku hingga jam *${jamSelesai}
-      cek sisa waktu anda di website *%0A%0AWebsite: [https://ferdi841.github.io/Reservasii/]`;
+      cek sisa waktu reservasi anda di website *%0A%0AWebsite: [https://ferdi841.github.io/Reservasii/]`;
       const waUrl = `https://wa.me/6289518371444?text=${pesan}`;
       window.open(waUrl, '_blank');
     }
