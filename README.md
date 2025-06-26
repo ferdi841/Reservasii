@@ -247,3 +247,9 @@
   </script>
 </body>
 </html>
+git init
+git remote add origin https://github.com/ferdi841/Reservasii.git
+git add .
+git commit -m "Deploy HB Barbershop ke GitHub Pages"
+git branch -M main
+git push -f origin main
